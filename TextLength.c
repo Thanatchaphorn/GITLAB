@@ -4,10 +4,10 @@ int main()
 {
     char s[120];
  
-    printf("Input string :: ");
+    printf("Input string : ");
     gets(s);
  
-    printf("\n\nString ( %s ) length is :: ( %d ) \n\n", s, strlen(s));
+    printf("\n\nString ( %s ) length is : ( %d ) \n\n", s, strlen(s));
  
     return 0;
 }
