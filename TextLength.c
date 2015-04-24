@@ -1,11 +1,10 @@
 #include <stdio.h>
-// อย่าลืม include <string.h> ด้วยนะครับ
 #include <string.h>
 int main()
 {
-    char s[100];
+    char s[150];
  
-    printf("Input string : ");
+    printf("Input String : ");
     gets(s);
  
     printf("\n\nString ( %s ) length is ( %d ) \n\n", s, strlen(s));
