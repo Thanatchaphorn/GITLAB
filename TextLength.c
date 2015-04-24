@@ -2,7 +2,7 @@
 #include <string.h>
 int main()
 {
-    char s[150];
+    char s[120];
  
     printf("Input String : ");
     gets(s);
