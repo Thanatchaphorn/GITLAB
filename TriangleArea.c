@@ -5,13 +5,13 @@ int main()
     float base;
     float height;
  
-    printf("\nInput value of base : ");
+    printf("\nInput Value Of Base : ");
     scanf("%f", &base);
  
-    printf("Input value of height : ");
+    printf("Input Value Of Height : ");
     scanf("%f", &height);
       
-    printf("\nArea of a Triangle is %.2f \n\n", 0.5 * base * height);
+    printf("\nArea Of a Triangle is %.2f \n\n", 0.5 * base * height);
  
     return 0;
 }
