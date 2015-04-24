@@ -4,7 +4,7 @@ int main()
 {
     char s[150];
  
-    printf("Input string : ");
+    printf("Input String : ");
     gets(s);
  
     printf("\n\nString ( %s ) length is : ( %d ) \n\n", s, strlen(s));
